@@ -1,0 +1,12 @@
+.deps/
+.jupyterdeps/
+.kernel/
+.ipython/
+.mplconfig/
+__pycache__/
+*.pyc
+data/
+tmp_uji/
+qa/
+publikasi/
+*.zip
