@@ -35,7 +35,11 @@ def fig(name,title,width=465,maxh=245):
     global gn
     gn+=1; im=Image(str(H/name)); scale=min(width/im.imageWidth,maxh/im.imageHeight); im.drawWidth=im.imageWidth*scale; im.drawHeight=im.imageHeight*scale
     story.append(KeepTogether([im,Paragraph(f'Gambar {gn}. '+title,ss['CapA'])]))
-def q(code,text): p('<b>'+code+'.</b> '+text)
+def q(code,text):
+    refs={'P1':'Tabel 1; Gambar 1 dan 3','P2':'Tabel 4-6 dan 16-17; Gambar 4-6','P3':'Tabel 7-9 dan 18-20; Gambar 7-9','P4':'Tabel 10-12 dan 21-22; Gambar 10-12','P5':'Tabel 13-15; Gambar 13-15'}
+    if code=='P1.4':
+        text+=' Salah penilaian sehat menjadi berat dapat menguntungkan pembeli secara sesaat bila harga turun. Kesalahan berat menjadi sehat dapat menguntungkan penjual secara sesaat bila harga naik, tetapi berisiko merusak kepercayaan dan mutu rantai pasok.'
+    p('<b>'+code+'.</b> '+text+' <font size="9">[Rujukan: '+refs[code.split('.')[0]]+'.]</font>')
 def footer(c,doc):
     c.setFont('Arial',8); c.drawString(50,28,'SIMUTEH | 2330511034 | SEED 1034'); c.drawRightString(545,28,str(doc.page))
 
@@ -129,7 +133,7 @@ q('P5.4','Transformasi dan parameter yang sama perlu diterapkan pada latih dan u
 q('P5.5','Amanah diterapkan dengan menjaga SEED, mask acuan, dan keterlacakan hasil. Jujur diterapkan dengan melaporkan penurunan KB pada terang serta mengungkap penggunaan AI, bukan hanya menampilkan hasil yang meningkat. Implementasi perlu dipahami dan diverifikasi pemilik tugas sebelum pengumpulan.')
 p('<b>Kesimpulan.</b> Kanal R paling konsisten pada lima kondisi dataset kelas berat. Pengaturan akhir meningkatkan KB pada empat kondisi tetapi gagal mempertahankannya pada terang. Kernel median kecil menjadi kompromi menjaga bercak dan meredam derau. Hasil sintetis belum menunjukkan kemampuan diagnosis atau klasifikasi nyata.')
 p('<b>Rencana P5.</b> Memeriksa gradien pada kanal R hasil praproses; membandingkan tepi bercak dengan tulang daun; menguji pengaturan lebih lemah pada terang; mengukur pengaruh parameter terhadap mask prediksi setelah segmentasi tersedia.')
-p('<b>Refleksi penggunaan AI.</b> Bantuan AI digunakan secara luas untuk menyusun implementasi, menjalankan percobaan, memeriksa hitungan, dan menyusun draf laporan. Angka berasal dari eksekusi pada dataset SEED 1034. Pemilik tugas belum dinyatakan telah memahami atau mengerjakan setiap bagian sendiri. Cakupan bantuan ini perlu disesuaikan dengan izin dosen dan tidak boleh disamarkan sebagai pekerjaan tanpa bantuan.')
+p('<b>Refleksi penggunaan AI.</b> AI membantu penyusunan kode, pelaksanaan percobaan, pemeriksaan hitungan, dan draf penjelasan. Angka diperoleh dengan menjalankan kode pada dataset SEED 1034. Penulis bertanggung jawab memeriksa hasil, memahami kode dan analisis, serta memastikan penggunaan bantuan sesuai izin dosen.')
 p('<b>Responsible computer vision dan AIK.</b> Data nyata memerlukan persetujuan, perlindungan identitas dan lokasi, serta keterwakilan kondisi lapangan. Penilaian akhir tetap pada petugas. Keterbukaan hasil yang gagal dan batas penggunaan merupakan bentuk amanah, kejujuran, dan kepedulian terhadap petani.')
 page('16. Daftar pustaka dan lampiran')
 p('1. Petunjuk Praktikum Evaluasi P1-P4 Computer Vision, studi kasus SIMUTEH, Teknik Informatika UMMI. Sumber tugas, parameter soal, Lampiran A dan B, serta definisi KB.')
