@@ -1,0 +1,13 @@
+nama,kelas,PSNR_sebelum,PSNR_sesudah_median3
+teh_001.png,sehat,26.297,33.77
+teh_006.png,sehat,28.457,35.847
+teh_011.png,sehat,26.606,34.106
+teh_016.png,sehat,28.136,35.572
+teh_021.png,ringan,26.019,33.545
+teh_026.png,ringan,30.978,38.185
+teh_031.png,ringan,26.941,34.399
+teh_036.png,ringan,26.393,33.884
+teh_041.png,berat,29.387,36.624
+teh_046.png,berat,31.241,38.235
+teh_051.png,berat,25.743,33.241
+teh_056.png,berat,26.657,34.075

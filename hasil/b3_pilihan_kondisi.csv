@@ -1,0 +1,9 @@
+nama,kondisi,metode,KB_sebelum,KB_sesudah
+teh_022,gelap,gamma 0.5,1.942,1.477
+teh_042,gelap,gamma 0.5,6.144,5.053
+teh_023,terang,gamma 1.8,1.953,2.099
+teh_043,terang,gamma 1.8,4.507,4.846
+teh_024,kontras_rendah,regang persentil 2-98,1.047,1.098
+teh_044,kontras_rendah,regang persentil 2-98,2.255,2.417
+teh_025,bayangan,gamma 1.8,2.803,3.571
+teh_045,bayangan,gamma 1.8,2.862,3.654

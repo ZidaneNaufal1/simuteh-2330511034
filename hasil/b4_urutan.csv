@@ -1,0 +1,5 @@
+penapis,urutan,PSNR_dB,sigma_latar
+Gaussian,tajam-redam,30.38,7.845
+Gaussian,redam-tajam,30.201,8.135
+Median,tajam-redam,30.148,8.01
+Median,redam-tajam,31.1,7.162

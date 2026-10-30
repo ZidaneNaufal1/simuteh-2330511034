@@ -1,0 +1,10 @@
+metode,KB,simpangan_baku_citra
+asli,2.862,52.507
+negatif,2.862,52.507
+cerah+50,2.862,51.498
+kontras,2.862,75.385
+regang,2.964,80.119
+gamma0.5,2.451,38.029
+gamma1.8,3.654,55.786
+ekualisasi,2.035,73.411
+CLAHE,2.551,44.776
