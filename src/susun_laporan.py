@@ -140,7 +140,7 @@ p('1. Petunjuk Praktikum Evaluasi P1-P4 Computer Vision, studi kasus SIMUTEH, Te
 p('2. Kode eksperimen dan hasil eksekusi lokal SIMUTEH SEED 1034, 30 Oktober 2026. Berkas CSV dan PNG pada folder hasil, notebook B1-B5, serta src/praproses.py.')
 p('<b>Lampiran hitung manual.</b> Langkah Bagian 2.1, 3.1 dan 4.1 disediakan dalam Panduan_Tulis_Tangan_2330511034.pdf. Setelah ditulis tangan, foto yang terbaca perlu ditambahkan ke laporan ini. Panduan ketik belum merupakan bukti bahwa tulisan tangan telah dikerjakan.')
 p('<b>Bukti tambahan.</b> Notebook dan folder hasil memuat tabel sampling/kuantisasi, eksperimen CLAHE, panel ringan dan bayangan, grafik lima jenis derau, waktu penapis, crop bercak kecil, PSNR 12 citra normal, dan keluaran uji konvolusi.')
-p('<b>Catatan kelengkapan pengumpulan.</b> Tautan repository juga perlu ditambahkan pada LMS. Foto lembar hitung perlu dilampirkan. PPTX dikeluarkan dari paket ini atas permintaan pemilik tugas, tetapi tetap merupakan luaran yang diminta dosen.')
+p('<b>Berkas pendamping.</b> Slide presentasi 12 halaman tersedia pada Slide_EvalP1-4_2330511034.pptx. Panduan hitungan manual tersedia sebagai PDF terpisah; foto hasil tulisan tangan dilampirkan setelah selesai. Tautan repository dicantumkan di halaman judul dan kolom LMS.')
 page('17. Bukti tambahan ruang warna')
 csvtable('b2_sampling.csv','Sampling dan KB pada teh_041')
 csvtable('b2_kuantisasi.csv','Kuantisasi dan jumlah level yang benar-benar terpakai')

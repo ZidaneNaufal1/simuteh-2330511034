@@ -36,8 +36,10 @@ Kanal R memberi KB rata-rata tertinggi kelas berat pada lima kondisi. Praproses:
 
 ## Bantuan AI dan pengumpulan
 
-AI membantu secara luas pada implementasi, percobaan, pemeriksaan hitungan dan penyusunan laporan; hal ini diungkapkan dalam refleksi. Pemilik tugas wajib memahami dan memverifikasi hasil serta memastikan cakupan bantuan sesuai izin dosen.
+AI membantu penyusunan kode, pelaksanaan percobaan, pemeriksaan hitungan dan draf penjelasan. Angka berasal dari eksekusi dataset SEED 1034. Penggunaan bantuan dicatat dalam refleksi; penulis bertanggung jawab memahami dan memverifikasi hasil sesuai ketentuan dosen.
 
-Foto lembar hitung manual Bagian 2, 3 dan 4 belum dilampirkan. Gunakan panduan PDF untuk menulis lalu tambahkan foto tulisan ke laporan. PPTX tidak dibuat sesuai permintaan pemilik tugas, tetapi tetap diwajibkan dosen. Repository pribadi perlu memberi dosen akses kolaborator sesuai arahan kelas. LMS belum dikirim.
+Slide presentasi tersedia di `laporan/Slide_EvalP1-4_2330511034.pptx`, terdiri atas 12 slide dan catatan pembicara. Versi Canva: https://www.canva.com/design/DAHZe8_KDQQ/uydfsZoQ-mXJu9yvAfoChw/edit
+
+Panduan hitungan manual Bagian 2, 3 dan 4 tersedia sebagai PDF terpisah. Setelah ditulis tangan, foto hasil tulisan dilampirkan pada laporan. Repository bersifat pribadi; pengaturan akses dosen mengikuti arahan di kelas.
 
 Tag rilis: v0.1-praproses.
