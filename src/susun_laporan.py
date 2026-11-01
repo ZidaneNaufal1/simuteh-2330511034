@@ -15,9 +15,9 @@ pdfmetrics.registerFont(TTFont('Arial','C:/Windows/Fonts/arial.ttf'))
 pdfmetrics.registerFont(TTFont('Arial-Bold','C:/Windows/Fonts/arialbd.ttf'))
 ss=getSampleStyleSheet(); ss.add(ParagraphStyle(name='BodyA',fontName='Arial',fontSize=11,leading=16.5,alignment=TA_JUSTIFY,spaceAfter=7))
 ss.add(ParagraphStyle(name='HeadA',fontName='Arial-Bold',fontSize=15,leading=19,spaceAfter=10))
-ss.add(ParagraphStyle(name='SmallA',fontName='Arial',fontSize=11,leading=13,spaceAfter=5))
-ss.add(ParagraphStyle(name='CapA',fontName='Arial',fontSize=9,leading=12,spaceAfter=8,alignment=TA_CENTER))
-story=[]; tn=0; gn=0
+ss.add(ParagraphStyle(name='SmallA',fontName='Arial',fontSize=11,leading=16.5,spaceAfter=5))
+ss.add(ParagraphStyle(name='CapA',fontName='Arial',fontSize=11,leading=16.5,spaceAfter=8,alignment=TA_CENTER))
+story=[]; tn=0; gn=0; table_padding=3
 def p(t): story.append(Paragraph(t,ss['BodyA']))
 def head(t): story.append(Paragraph(t,ss['HeadA']))
 def page(t):
@@ -28,7 +28,7 @@ def table(title,data,widths=None):
     global tn
     tn+=1; story.append(Paragraph(f'Tabel {tn}. '+title,ss['SmallA']))
     data=[[Paragraph(escape(str(v)),ss['SmallA']) for v in r] for r in data]
-    t=Table(data,colWidths=widths or [495/len(data[0])]*len(data[0]),repeatRows=1,hAlign='LEFT');t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e8f0eb')),('VALIGN',(0,0),(-1,-1),'TOP'),('GRID',(0,0),(-1,-1),.3,colors.lightgrey),('LEFTPADDING',(0,0),(-1,-1),4),('RIGHTPADDING',(0,0),(-1,-1),4)]));story.append(t);story.append(Spacer(1,7))
+    t=Table(data,colWidths=widths or [495/len(data[0])]*len(data[0]),repeatRows=1,hAlign='LEFT');t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e8f0eb')),('VALIGN',(0,0),(-1,-1),'TOP'),('GRID',(0,0),(-1,-1),.3,colors.lightgrey),('LEFTPADDING',(0,0),(-1,-1),4),('RIGHTPADDING',(0,0),(-1,-1),4),('TOPPADDING',(0,0),(-1,-1),table_padding),('BOTTOMPADDING',(0,0),(-1,-1),table_padding)]));story.append(t);story.append(Spacer(1,7))
 def csvtable(name,title,keys=None):
     rr=rows(name); keys=keys or list(rr[0]); table(title,[keys]+[[r[k] for k in keys] for r in rr])
 def fig(name,title,width=465,maxh=245):
@@ -39,14 +39,14 @@ def q(code,text):
     refs={'P1':'Tabel 1; Gambar 1 dan 3','P2':'Tabel 4-6 dan 16-17; Gambar 4-6','P3':'Tabel 7-9 dan 18-20; Gambar 7-9','P4':'Tabel 10-12 dan 21-22; Gambar 10-12','P5':'Tabel 13-15; Gambar 13-15'}
     if code=='P1.4':
         text+=' Salah penilaian sehat menjadi berat dapat menguntungkan pembeli secara sesaat bila harga turun. Kesalahan berat menjadi sehat dapat menguntungkan penjual secara sesaat bila harga naik, tetapi berisiko merusak kepercayaan dan mutu rantai pasok.'
-    p('<b>'+code+'.</b> '+text+' <font size="9">[Rujukan: '+refs[code.split('.')[0]]+'.]</font>')
+    p('<b>'+code+'.</b> '+text+' [Rujukan: '+refs[code.split('.')[0]]+'.]')
 def footer(c,doc):
     c.setFont('Arial',8); c.drawString(50,28,'SIMUTEH | 2330511034 | SEED 1034'); c.drawRightString(545,28,str(doc.page))
 
 page('LAPORAN EVALUASI PRAKTIKUM P1-P4')
 story.append(Spacer(1,65)); head('SIMUTEH: Akuisisi dan Praproses Citra Daun Teh')
 p('Mata kuliah: Computer Vision<br/>Nama: M. Zidane Naufal Azzam<br/>NIM: 2330511034<br/>Kelas: 7A<br/>SEED: 1034<br/>Tanggal penyusunan: 30 Oktober 2026')
-p('Repository GitHub: <link href="https://github.com/ZidaneNaufal1/simuteh-2330511034">https://github.com/ZidaneNaufal1/simuteh-2330511034</link><br/>Tag rilis: v0.1-praproses. Repository pribadi; akses dosen perlu diberikan sesuai arahan kelas.')
+p('Repository GitHub: <link href="https://github.com/ZidaneNaufal1/simuteh-2330511034">https://github.com/ZidaneNaufal1/simuteh-2330511034</link><br/>Tag rilis: v0.1-praproses.')
 p('Ruang lingkup laporan: lingkungan kerja, pembentukan citra dan ruang warna, histogram, penapisan spasial, serta integrasi praproses. Lampiran tulisan tangan disiapkan terpisah dan perlu dimasukkan setelah difoto.')
 page('1. Pendahuluan dan formulasi masalah')
 p('SIMUTEH merupakan studi kasus alat bantu penyortiran daun teh. Petugas membutuhkan penilaian yang lebih konsisten ketika bercak kecil sulit terlihat atau pencahayaan berubah. Evaluasi ini menyiapkan akuisisi dan praproses untuk pengembangan segmentasi serta klasifikasi pada pertemuan berikutnya.')
@@ -57,8 +57,8 @@ page('2. Data dan lingkungan kerja')
 p('Dataset bawaan dibangkitkan dari Lampiran A dengan SEED 1034: 60 citra berukuran 640 × 480, masing-masing 20 sehat, ringan, dan berat. Tiap kondisi normal, gelap, terang, kontras rendah, dan bayangan memiliki 12 citra. Mask acuan dipakai untuk evaluasi, bukan sebagai masukan yang tersedia pada pemakaian lapangan.')
 labels=list(csv.DictReader(open(ROOT/'data/sintetis/label.csv')))
 table('Ringkasan luas bercak dari label.csv',[['Kelas','n','Rerata (%)','Minimum (%)','Maksimum (%)']]+[[k,20,round(statistics.mean(float(r['persen_bercak']) for r in labels if r['kelas']==k),3),min(float(r['persen_bercak']) for r in labels if r['kelas']==k),max(float(r['persen_bercak']) for r in labels if r['kelas']==k)] for k in ['sehat','ringan','berat']])
-import cv2,numpy,matplotlib,skimage,pandas,PIL
-table('Versi pustaka pada eksekusi',[['Pustaka','Versi'],['Python',sys.version.split()[0]],['OpenCV',cv2.__version__],['NumPy',numpy.__version__],['Matplotlib',matplotlib.__version__],['scikit-image',skimage.__version__],['pandas',pandas.__version__],['Pillow',PIL.__version__]])
+# Versi lingkungan eksperimen 30 Oktober 2026; regenerasi dokumen tidak mengubah catatan eksperimen.
+table('Versi pustaka pada eksekusi',[['Pustaka','Versi'],['Python','3.12.14'],['OpenCV','4.12.0'],['NumPy','2.2.6'],['Matplotlib','3.10.8'],['scikit-image','0.26.0'],['pandas','3.0.1'],['Pillow','13.0.0']])
 fig('contoh_kondisi_dan_sehat.png','Lima kondisi kelas berat (atas) dan contoh hasil kelas sehat (bawah).',maxh=210)
 page('3. Hasil dan analisis Bagian 1')
 p('Uji teh_041.png menghasilkan shape (480, 640, 3), dtype uint8, rentang intensitas 11 sampai 255, dan piksel pada y=100, x=200 dalam BGR [156, 194, 220]. Dataset telah dibangkitkan ulang: seluruh 241 berkas cocok secara SHA-256 dengan hasil pertama.')
@@ -68,7 +68,7 @@ q('P1.2','Pencahayaan perlu ditangani pada akuisisi dan praproses; perubahan ska
 q('P1.3','OpenCV membaca BGR, sedangkan Matplotlib menganggap kanal pertama R. Tanpa konversi, kanal merah dan biru tertukar seperti pada Gambar 3. Fitur warna P9 akan salah makna jika urutan kanal tidak konsisten.')
 q('P1.4','Sehat yang dinilai berat dapat menurunkan harga dan merugikan petani; bercak berat yang dinilai sehat dapat merugikan pembeli dan mutu produk. Penilaian yang adil mengukur kedua jenis kesalahan. Amanah berarti menyampaikan keterbatasan dan menjaga pemeriksaan manusia.')
 page('4. Bagian 2: syarat akuisisi dan ruang warna')
-p('Model kamera menghasilkan diameter bercak 47,62 piksel pada jarak 300 mm dan 23,81 piksel pada 600 mm. Setelah foto asli diperkecil dari lebar 4000 ke 640, bercak pada jarak 300 mm tinggal 7,62 piksel. Batas teoretis jarak untuk 10 piksel setelah pengecilan adalah 228,57 mm. Hitungan lengkap disediakan dalam panduan tulisan tangan.')
+p('Model kamera menghasilkan diameter bercak 47,62 piksel pada jarak 300 mm dan 23,81 piksel pada 600 mm. Setelah foto asli diperkecil dari lebar 4000 ke 640, bercak pada jarak 300 mm tinggal 7,62 piksel. Batas teoretis jarak untuk 10 piksel setelah pengecilan adalah 228,57 mm. Hitungan lengkap disediakan dalam Lembar_Hitung_Manual_2330511034.pdf.')
 table('Rencana akuisisi',[['Komponen','Rencana'],['Jarak dan sudut','Sekitar 200 mm, kamera tegak lurus; periksa fokus dan seluruh daun masuk bingkai'],['Resolusi','Pada 300 mm diperlukan lebar kerja minimal 840 piksel. Untuk kerja lebar 640, gunakan jarak ≤228,57 mm sesuai model soal'],['Alas dan skala','Alas polos tidak mengilap dan penggaris pada bidang daun'],['Cahaya','Wakili normal, gelap, terang, kontras rendah, bayangan; hindari clipping'],['Jumlah awal nyata','Usulan 20 citra per kelas, seimbang antar kondisi; perlu diperluas sebelum model lapangan'],['Nama berkas','teh_ID_kelas_kondisi.png, tanpa nama atau identitas petani'],['Persetujuan','Minta izin pemotretan serta publikasi; cegah wajah dan hapus EXIF termasuk GPS']],[95,370])
 fig('b2_kanal.png','Citra berat normal dan tujuh kanal pembanding.',maxh=230)
 page('5. Bagian 2: hasil perbandingan kanal')
@@ -120,7 +120,7 @@ q('P4.7','Blur ringan menyisakan bentuk dan ciri identitas sehingga tidak member
 page('13. Bagian 5: rangkaian akhir')
 fig('b5_pipeline.png','Urutan dan parameter praproses akhir.',maxh=95)
 rr=rows('b5_integrasi_ringkasan.csv'); table('KB kanal R, rerata 40 citra berbercak',[['Kondisi','Sebelum','Sesudah','Perubahan %']]+[[r[k] for k in ['kondisi','sebelum','sesudah','perubahan_persen']] for r in rr if r['kelompok']=='berbercak'])
-fig('b5_kb.png','KB sebelum dan sesudah praproses.',maxh=220)
+fig('b5_kb.png','KB sebelum dan sesudah praproses.',maxh=150)
 table('Justifikasi parameter',[['Langkah','Parameter dan alasan','Risiko'],['Ubah ukuran','Lebar 640, sesuai dataset dan biaya komputasi','Bercak hilang bila resolusi awal kurang'],['Gamma','1,0: tidak memakai koreksi global tetap','Kondisi ekstrem belum dikoreksi khusus'],['CLAHE V','clip 2,0; tile 8, koreksi lokal terbatas','Pada terang KB turun'],['Redam derau','Median 3 menjaga detail dibanding kernel besar','Derau Gaussian belum optimal'],['Tajamkan','k=0, tidak menguatkan derau','Tepi kurang tajam; perlu uji P5']],[75,250,140])
 page('14. Uji kelas sehat dan analisis integrasi')
 table('Simpangan baku R pada area daun sehat, 20 citra',[['Kondisi','Sebelum','Sesudah','Perubahan %']]+[[r[k] for k in ['kondisi','sebelum','sesudah','perubahan_persen']] for r in rr if r['kelompok']=='sehat'])
@@ -138,9 +138,9 @@ p('<b>Responsible computer vision dan AIK.</b> Data nyata memerlukan persetujuan
 page('16. Daftar pustaka dan lampiran')
 p('1. Petunjuk Praktikum Evaluasi P1-P4 Computer Vision, studi kasus SIMUTEH, Teknik Informatika UMMI. Sumber tugas, parameter soal, Lampiran A dan B, serta definisi KB.')
 p('2. Kode eksperimen dan hasil eksekusi lokal SIMUTEH SEED 1034, 30 Oktober 2026. Berkas CSV dan PNG pada folder hasil, notebook B1-B5, serta src/praproses.py.')
-p('<b>Lampiran hitung manual.</b> Langkah Bagian 2.1, 3.1 dan 4.1 disediakan dalam Panduan_Tulis_Tangan_2330511034.pdf. Setelah ditulis tangan, foto yang terbaca perlu ditambahkan ke laporan ini. Panduan ketik belum merupakan bukti bahwa tulisan tangan telah dikerjakan.')
+p('<b>Lampiran hitung manual.</b> Perhitungan Bagian 2.1, 3.1 dan 4.1 tersedia dalam Lembar_Hitung_Manual_2330511034.pdf. Foto hasil perhitungan yang ditulis tangan dilampirkan pada laporan setelah selesai.')
 p('<b>Bukti tambahan.</b> Notebook dan folder hasil memuat tabel sampling/kuantisasi, eksperimen CLAHE, panel ringan dan bayangan, grafik lima jenis derau, waktu penapis, crop bercak kecil, PSNR 12 citra normal, dan keluaran uji konvolusi.')
-p('<b>Berkas pendamping.</b> Slide presentasi 12 halaman tersedia pada Slide_EvalP1-4_2330511034.pptx. Panduan hitungan manual tersedia sebagai PDF terpisah; foto hasil tulisan tangan dilampirkan setelah selesai. Tautan repository dicantumkan di halaman judul dan kolom LMS.')
+p('<b>Berkas pendamping.</b> Slide presentasi 12 halaman tersedia pada Slide_EvalP1-4_2330511034.pptx. Lembar hitung manual tersedia sebagai PDF terpisah. Tautan repository dicantumkan di halaman judul dan kolom LMS.')
 page('17. Bukti tambahan ruang warna')
 csvtable('b2_sampling.csv','Sampling dan KB pada teh_041')
 csvtable('b2_kuantisasi.csv','Kuantisasi dan jumlah level yang benar-benar terpakai')
@@ -160,9 +160,9 @@ table('Penapis dengan PSNR tertinggi pada tiap derau',[['Derau','Penapis','PSNR'
 p('Pemeringkatan ini hanya untuk keenam penapis dan citra acuan yang diuji. Data waktu bervariasi antar-eksekusi. Parameter akhir median 3 dipilih sebagai kompromi biaya dan pelestarian detail, bukan sebagai pemenang PSNR pada semua derau.')
 path=OUT/'Laporan_EvalP1-4_2330511034_M. Zidane Naufal Azzam.pdf'
 SimpleDocTemplate(str(path),pagesize=(595.28,841.89),rightMargin=50,leftMargin=50,topMargin=45,bottomMargin=45).build(story,onFirstPage=footer,onLaterPages=footer)
-# Panduan tulis tangan dibuat menjadi PDF terpisah, tanpa menyatakan sudah ditulis tangan.
-story=[]; ss['BodyA'].leading=14; ss['BodyA'].spaceAfter=4
-manual=(ROOT/'PANDUAN_TULIS_TANGAN.md').read_text(encoding='utf8').splitlines(); idx=0
+# Lembar perhitungan diketik; foto tulisan tangan dilampirkan secara terpisah.
+story=[]; ss['BodyA'].spaceAfter=1; table_padding=0; tn=0
+manual=(ROOT/'LEMBAR_HITUNG_MANUAL.md').read_text(encoding='utf8').splitlines(); idx=0
 while idx<len(manual):
     line=manual[idx]; idx+=1
     if not line.strip(): continue
@@ -176,5 +176,5 @@ while idx<len(manual):
         story.append(PageBreak()); head(escape(line.lstrip('# ')))
     elif line.startswith('#'): head(escape(line.lstrip('# ')))
     else: p(escape(line.replace('**','')))
-SimpleDocTemplate(str(OUT/'Panduan_Tulis_Tangan_2330511034.pdf'),rightMargin=50,leftMargin=50,topMargin=45,bottomMargin=45).build(story,onFirstPage=footer,onLaterPages=footer)
+SimpleDocTemplate(str(OUT/'Lembar_Hitung_Manual_2330511034.pdf'),pagesize=(595.28,841.89),rightMargin=50,leftMargin=50,topMargin=45,bottomMargin=45).build(story,onFirstPage=footer,onLaterPages=footer)
 print(path)

@@ -42,6 +42,6 @@ AI digunakan sebagai alat bantu dalam pengembangan kode, pelaksanaan dan pemerik
 
 - Laporan praktikum: [PDF](<laporan/Laporan_EvalP1-4_2330511034_M. Zidane Naufal Azzam.pdf>).
 - Presentasi 12 slide beserta catatan pembicara: [PowerPoint](laporan/Slide_EvalP1-4_2330511034.pptx) dan [PDF](laporan/Slide_EvalP1-4_2330511034.pdf).
-- Panduan hitungan manual Bagian 2, 3, dan 4: [PDF](laporan/Panduan_Tulis_Tangan_2330511034.pdf).
+- Lembar hitung manual Bagian 2, 3, dan 4: [PDF](laporan/Lembar_Hitung_Manual_2330511034.pdf).
 
 Tag rilis praproses: `v0.1-praproses`.
