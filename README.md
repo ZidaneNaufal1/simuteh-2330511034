@@ -34,12 +34,14 @@ Kelima notebook telah berhasil diuji dari awal sampai akhir dengan kernel baru m
 
 Kanal R memberi KB rata-rata tertinggi kelas berat pada lima kondisi. Praproses: lebar 640, gamma 1,0, CLAHE V clip 2,0 tile 8, median 3, tanpa penajaman. KB naik pada empat kondisi dan turun 18,53% pada terang. Simpangan baku area daun sehat pada terang naik 14,07%. Waktu pengukuran dapat berubah antar-eksekusi. Hasil sintetis belum membuktikan kemampuan diagnosis nyata atau akurasi klasifikasi.
 
-## Bantuan AI dan pengumpulan
+## Penggunaan AI
 
-AI membantu penyusunan kode, pelaksanaan percobaan, pemeriksaan hitungan dan draf penjelasan. Angka berasal dari eksekusi dataset SEED 1034. Penggunaan bantuan dicatat dalam refleksi; penulis bertanggung jawab memahami dan memverifikasi hasil sesuai ketentuan dosen.
+AI digunakan sebagai alat bantu dalam pengembangan kode, pelaksanaan dan pemeriksaan eksperimen, serta penyusunan dokumentasi. Hasil numerik diperoleh dari eksekusi dataset dengan SEED 1034. Penjelasan penggunaan bantuan tercantum pada bagian refleksi laporan.
 
-Slide presentasi tersedia di `laporan/Slide_EvalP1-4_2330511034.pptx`, terdiri atas 12 slide dan catatan pembicara. Versi Canva: https://www.canva.com/design/DAHZe8_KDQQ/uydfsZoQ-mXJu9yvAfoChw/edit
+## Berkas pendamping
 
-Panduan hitungan manual Bagian 2, 3 dan 4 tersedia sebagai PDF terpisah. Setelah ditulis tangan, foto hasil tulisan dilampirkan pada laporan. Repository bersifat pribadi; pengaturan akses dosen mengikuti arahan di kelas.
+- Laporan praktikum: [PDF](<laporan/Laporan_EvalP1-4_2330511034_M. Zidane Naufal Azzam.pdf>).
+- Presentasi 12 slide beserta catatan pembicara: [PowerPoint](laporan/Slide_EvalP1-4_2330511034.pptx) dan [PDF](laporan/Slide_EvalP1-4_2330511034.pdf).
+- Panduan hitungan manual Bagian 2, 3, dan 4: [PDF](laporan/Panduan_Tulis_Tangan_2330511034.pdf).
 
-Tag rilis: v0.1-praproses.
+Tag rilis praproses: `v0.1-praproses`.
