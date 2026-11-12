@@ -1,0 +1,241 @@
+citra,kelas,aturan,jumlah,acuan,galat
+teh_001.png,sehat,tanpa saring,4,0,4
+teh_001.png,sehat,luas ≥ 20,1,0,1
+teh_001.png,sehat,luas + kebulatan,1,0,1
+teh_001.png,sehat,luas + kebulatan + rasio,1,0,1
+teh_002.png,sehat,tanpa saring,2,0,2
+teh_002.png,sehat,luas ≥ 20,0,0,0
+teh_002.png,sehat,luas + kebulatan,0,0,0
+teh_002.png,sehat,luas + kebulatan + rasio,0,0,0
+teh_003.png,sehat,tanpa saring,0,0,0
+teh_003.png,sehat,luas ≥ 20,0,0,0
+teh_003.png,sehat,luas + kebulatan,0,0,0
+teh_003.png,sehat,luas + kebulatan + rasio,0,0,0
+teh_004.png,sehat,tanpa saring,0,0,0
+teh_004.png,sehat,luas ≥ 20,0,0,0
+teh_004.png,sehat,luas + kebulatan,0,0,0
+teh_004.png,sehat,luas + kebulatan + rasio,0,0,0
+teh_005.png,sehat,tanpa saring,2,0,2
+teh_005.png,sehat,luas ≥ 20,1,0,1
+teh_005.png,sehat,luas + kebulatan,1,0,1
+teh_005.png,sehat,luas + kebulatan + rasio,1,0,1
+teh_006.png,sehat,tanpa saring,15,0,15
+teh_006.png,sehat,luas ≥ 20,10,0,10
+teh_006.png,sehat,luas + kebulatan,7,0,7
+teh_006.png,sehat,luas + kebulatan + rasio,4,0,4
+teh_007.png,sehat,tanpa saring,8,0,8
+teh_007.png,sehat,luas ≥ 20,4,0,4
+teh_007.png,sehat,luas + kebulatan,3,0,3
+teh_007.png,sehat,luas + kebulatan + rasio,3,0,3
+teh_008.png,sehat,tanpa saring,2,0,2
+teh_008.png,sehat,luas ≥ 20,2,0,2
+teh_008.png,sehat,luas + kebulatan,1,0,1
+teh_008.png,sehat,luas + kebulatan + rasio,1,0,1
+teh_009.png,sehat,tanpa saring,0,0,0
+teh_009.png,sehat,luas ≥ 20,0,0,0
+teh_009.png,sehat,luas + kebulatan,0,0,0
+teh_009.png,sehat,luas + kebulatan + rasio,0,0,0
+teh_010.png,sehat,tanpa saring,2,0,2
+teh_010.png,sehat,luas ≥ 20,2,0,2
+teh_010.png,sehat,luas + kebulatan,0,0,0
+teh_010.png,sehat,luas + kebulatan + rasio,0,0,0
+teh_011.png,sehat,tanpa saring,9,0,9
+teh_011.png,sehat,luas ≥ 20,5,0,5
+teh_011.png,sehat,luas + kebulatan,5,0,5
+teh_011.png,sehat,luas + kebulatan + rasio,2,0,2
+teh_012.png,sehat,tanpa saring,13,0,13
+teh_012.png,sehat,luas ≥ 20,10,0,10
+teh_012.png,sehat,luas + kebulatan,7,0,7
+teh_012.png,sehat,luas + kebulatan + rasio,4,0,4
+teh_013.png,sehat,tanpa saring,0,0,0
+teh_013.png,sehat,luas ≥ 20,0,0,0
+teh_013.png,sehat,luas + kebulatan,0,0,0
+teh_013.png,sehat,luas + kebulatan + rasio,0,0,0
+teh_014.png,sehat,tanpa saring,0,0,0
+teh_014.png,sehat,luas ≥ 20,0,0,0
+teh_014.png,sehat,luas + kebulatan,0,0,0
+teh_014.png,sehat,luas + kebulatan + rasio,0,0,0
+teh_015.png,sehat,tanpa saring,1,0,1
+teh_015.png,sehat,luas ≥ 20,1,0,1
+teh_015.png,sehat,luas + kebulatan,1,0,1
+teh_015.png,sehat,luas + kebulatan + rasio,1,0,1
+teh_016.png,sehat,tanpa saring,3,0,3
+teh_016.png,sehat,luas ≥ 20,3,0,3
+teh_016.png,sehat,luas + kebulatan,1,0,1
+teh_016.png,sehat,luas + kebulatan + rasio,1,0,1
+teh_017.png,sehat,tanpa saring,4,0,4
+teh_017.png,sehat,luas ≥ 20,0,0,0
+teh_017.png,sehat,luas + kebulatan,0,0,0
+teh_017.png,sehat,luas + kebulatan + rasio,0,0,0
+teh_018.png,sehat,tanpa saring,0,0,0
+teh_018.png,sehat,luas ≥ 20,0,0,0
+teh_018.png,sehat,luas + kebulatan,0,0,0
+teh_018.png,sehat,luas + kebulatan + rasio,0,0,0
+teh_019.png,sehat,tanpa saring,0,0,0
+teh_019.png,sehat,luas ≥ 20,0,0,0
+teh_019.png,sehat,luas + kebulatan,0,0,0
+teh_019.png,sehat,luas + kebulatan + rasio,0,0,0
+teh_020.png,sehat,tanpa saring,5,0,5
+teh_020.png,sehat,luas ≥ 20,2,0,2
+teh_020.png,sehat,luas + kebulatan,2,0,2
+teh_020.png,sehat,luas + kebulatan + rasio,1,0,1
+teh_021.png,ringan,tanpa saring,10,1,9
+teh_021.png,ringan,luas ≥ 20,10,1,9
+teh_021.png,ringan,luas + kebulatan,6,1,5
+teh_021.png,ringan,luas + kebulatan + rasio,3,1,2
+teh_022.png,ringan,tanpa saring,1,1,0
+teh_022.png,ringan,luas ≥ 20,1,1,0
+teh_022.png,ringan,luas + kebulatan,1,1,0
+teh_022.png,ringan,luas + kebulatan + rasio,1,1,0
+teh_023.png,ringan,tanpa saring,2,2,0
+teh_023.png,ringan,luas ≥ 20,2,2,0
+teh_023.png,ringan,luas + kebulatan,2,2,0
+teh_023.png,ringan,luas + kebulatan + rasio,2,2,0
+teh_024.png,ringan,tanpa saring,2,3,1
+teh_024.png,ringan,luas ≥ 20,2,3,1
+teh_024.png,ringan,luas + kebulatan,2,3,1
+teh_024.png,ringan,luas + kebulatan + rasio,2,3,1
+teh_025.png,ringan,tanpa saring,9,3,6
+teh_025.png,ringan,luas ≥ 20,8,3,5
+teh_025.png,ringan,luas + kebulatan,5,3,2
+teh_025.png,ringan,luas + kebulatan + rasio,3,3,0
+teh_026.png,ringan,tanpa saring,2,1,1
+teh_026.png,ringan,luas ≥ 20,2,1,1
+teh_026.png,ringan,luas + kebulatan,1,1,0
+teh_026.png,ringan,luas + kebulatan + rasio,1,1,0
+teh_027.png,ringan,tanpa saring,2,2,0
+teh_027.png,ringan,luas ≥ 20,2,2,0
+teh_027.png,ringan,luas + kebulatan,2,2,0
+teh_027.png,ringan,luas + kebulatan + rasio,2,2,0
+teh_028.png,ringan,tanpa saring,13,2,11
+teh_028.png,ringan,luas ≥ 20,10,2,8
+teh_028.png,ringan,luas + kebulatan,6,2,4
+teh_028.png,ringan,luas + kebulatan + rasio,3,2,1
+teh_029.png,ringan,tanpa saring,2,3,1
+teh_029.png,ringan,luas ≥ 20,2,3,1
+teh_029.png,ringan,luas + kebulatan,2,3,1
+teh_029.png,ringan,luas + kebulatan + rasio,2,3,1
+teh_030.png,ringan,tanpa saring,5,3,2
+teh_030.png,ringan,luas ≥ 20,3,3,0
+teh_030.png,ringan,luas + kebulatan,3,3,0
+teh_030.png,ringan,luas + kebulatan + rasio,3,3,0
+teh_031.png,ringan,tanpa saring,9,1,8
+teh_031.png,ringan,luas ≥ 20,6,1,5
+teh_031.png,ringan,luas + kebulatan,4,1,3
+teh_031.png,ringan,luas + kebulatan + rasio,3,1,2
+teh_032.png,ringan,tanpa saring,3,3,0
+teh_032.png,ringan,luas ≥ 20,3,3,0
+teh_032.png,ringan,luas + kebulatan,3,3,0
+teh_032.png,ringan,luas + kebulatan + rasio,3,3,0
+teh_033.png,ringan,tanpa saring,5,3,2
+teh_033.png,ringan,luas ≥ 20,3,3,0
+teh_033.png,ringan,luas + kebulatan,3,3,0
+teh_033.png,ringan,luas + kebulatan + rasio,3,3,0
+teh_034.png,ringan,tanpa saring,1,1,0
+teh_034.png,ringan,luas ≥ 20,1,1,0
+teh_034.png,ringan,luas + kebulatan,1,1,0
+teh_034.png,ringan,luas + kebulatan + rasio,1,1,0
+teh_035.png,ringan,tanpa saring,8,2,6
+teh_035.png,ringan,luas ≥ 20,8,2,6
+teh_035.png,ringan,luas + kebulatan,7,2,5
+teh_035.png,ringan,luas + kebulatan + rasio,3,2,1
+teh_036.png,ringan,tanpa saring,15,3,12
+teh_036.png,ringan,luas ≥ 20,11,3,8
+teh_036.png,ringan,luas + kebulatan,7,3,4
+teh_036.png,ringan,luas + kebulatan + rasio,3,3,0
+teh_037.png,ringan,tanpa saring,2,2,0
+teh_037.png,ringan,luas ≥ 20,2,2,0
+teh_037.png,ringan,luas + kebulatan,2,2,0
+teh_037.png,ringan,luas + kebulatan + rasio,2,2,0
+teh_038.png,ringan,tanpa saring,1,1,0
+teh_038.png,ringan,luas ≥ 20,1,1,0
+teh_038.png,ringan,luas + kebulatan,1,1,0
+teh_038.png,ringan,luas + kebulatan + rasio,0,1,1
+teh_039.png,ringan,tanpa saring,2,2,0
+teh_039.png,ringan,luas ≥ 20,2,2,0
+teh_039.png,ringan,luas + kebulatan,2,2,0
+teh_039.png,ringan,luas + kebulatan + rasio,2,2,0
+teh_040.png,ringan,tanpa saring,3,1,2
+teh_040.png,ringan,luas ≥ 20,3,1,2
+teh_040.png,ringan,luas + kebulatan,3,1,2
+teh_040.png,ringan,luas + kebulatan + rasio,1,1,0
+teh_041.png,berat,tanpa saring,17,8,9
+teh_041.png,berat,luas ≥ 20,15,8,7
+teh_041.png,berat,luas + kebulatan,12,8,4
+teh_041.png,berat,luas + kebulatan + rasio,9,8,1
+teh_042.png,berat,tanpa saring,17,10,7
+teh_042.png,berat,luas ≥ 20,15,10,5
+teh_042.png,berat,luas + kebulatan,10,10,0
+teh_042.png,berat,luas + kebulatan + rasio,8,10,2
+teh_043.png,berat,tanpa saring,9,9,0
+teh_043.png,berat,luas ≥ 20,9,9,0
+teh_043.png,berat,luas + kebulatan,8,9,1
+teh_043.png,berat,luas + kebulatan + rasio,8,9,1
+teh_044.png,berat,tanpa saring,6,6,0
+teh_044.png,berat,luas ≥ 20,6,6,0
+teh_044.png,berat,luas + kebulatan,6,6,0
+teh_044.png,berat,luas + kebulatan + rasio,6,6,0
+teh_045.png,berat,tanpa saring,8,8,0
+teh_045.png,berat,luas ≥ 20,8,8,0
+teh_045.png,berat,luas + kebulatan,8,8,0
+teh_045.png,berat,luas + kebulatan + rasio,8,8,0
+teh_046.png,berat,tanpa saring,9,10,1
+teh_046.png,berat,luas ≥ 20,9,10,1
+teh_046.png,berat,luas + kebulatan,8,10,2
+teh_046.png,berat,luas + kebulatan + rasio,8,10,2
+teh_047.png,berat,tanpa saring,8,8,0
+teh_047.png,berat,luas ≥ 20,8,8,0
+teh_047.png,berat,luas + kebulatan,7,8,1
+teh_047.png,berat,luas + kebulatan + rasio,7,8,1
+teh_048.png,berat,tanpa saring,15,7,8
+teh_048.png,berat,luas ≥ 20,14,7,7
+teh_048.png,berat,luas + kebulatan,9,7,2
+teh_048.png,berat,luas + kebulatan + rasio,8,7,1
+teh_049.png,berat,tanpa saring,11,11,0
+teh_049.png,berat,luas ≥ 20,11,11,0
+teh_049.png,berat,luas + kebulatan,11,11,0
+teh_049.png,berat,luas + kebulatan + rasio,11,11,0
+teh_050.png,berat,tanpa saring,19,11,8
+teh_050.png,berat,luas ≥ 20,14,11,3
+teh_050.png,berat,luas + kebulatan,13,11,2
+teh_050.png,berat,luas + kebulatan + rasio,12,11,1
+teh_051.png,berat,tanpa saring,9,7,2
+teh_051.png,berat,luas ≥ 20,7,7,0
+teh_051.png,berat,luas + kebulatan,7,7,0
+teh_051.png,berat,luas + kebulatan + rasio,7,7,0
+teh_052.png,berat,tanpa saring,10,10,0
+teh_052.png,berat,luas ≥ 20,10,10,0
+teh_052.png,berat,luas + kebulatan,10,10,0
+teh_052.png,berat,luas + kebulatan + rasio,10,10,0
+teh_053.png,berat,tanpa saring,15,11,4
+teh_053.png,berat,luas ≥ 20,11,11,0
+teh_053.png,berat,luas + kebulatan,11,11,0
+teh_053.png,berat,luas + kebulatan + rasio,9,11,2
+teh_054.png,berat,tanpa saring,8,8,0
+teh_054.png,berat,luas ≥ 20,8,8,0
+teh_054.png,berat,luas + kebulatan,8,8,0
+teh_054.png,berat,luas + kebulatan + rasio,7,8,1
+teh_055.png,berat,tanpa saring,12,6,6
+teh_055.png,berat,luas ≥ 20,8,6,2
+teh_055.png,berat,luas + kebulatan,5,6,1
+teh_055.png,berat,luas + kebulatan + rasio,5,6,1
+teh_056.png,berat,tanpa saring,15,10,5
+teh_056.png,berat,luas ≥ 20,12,10,2
+teh_056.png,berat,luas + kebulatan,11,10,1
+teh_056.png,berat,luas + kebulatan + rasio,8,10,2
+teh_057.png,berat,tanpa saring,7,8,1
+teh_057.png,berat,luas ≥ 20,7,8,1
+teh_057.png,berat,luas + kebulatan,6,8,2
+teh_057.png,berat,luas + kebulatan + rasio,6,8,2
+teh_058.png,berat,tanpa saring,16,10,6
+teh_058.png,berat,luas ≥ 20,15,10,5
+teh_058.png,berat,luas + kebulatan,14,10,4
+teh_058.png,berat,luas + kebulatan + rasio,13,10,3
+teh_059.png,berat,tanpa saring,12,12,0
+teh_059.png,berat,luas ≥ 20,12,12,0
+teh_059.png,berat,luas + kebulatan,12,12,0
+teh_059.png,berat,luas + kebulatan + rasio,12,12,0
+teh_060.png,berat,tanpa saring,11,7,4
+teh_060.png,berat,luas ≥ 20,9,7,2
+teh_060.png,berat,luas + kebulatan,7,7,0
+teh_060.png,berat,luas + kebulatan + rasio,7,7,0
