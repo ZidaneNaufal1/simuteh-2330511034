@@ -1,0 +1,401 @@
+citra,kondisi,kanal,ambang,P,R,F1,median
+teh_021.png,normal,Gray,median,0.383,0.996,0.553,160.0
+teh_021.png,normal,Gray,tetap 30/90,0.585,0.995,0.737,160.0
+teh_021.png,normal,Gray,q90,0.029,0.995,0.056,160.0
+teh_021.png,normal,Gray,q95,0.14,0.995,0.245,160.0
+teh_021.png,normal,Gray,q98,0.584,0.994,0.736,160.0
+teh_021.png,normal,R,median,0.11,0.998,0.199,176.0
+teh_021.png,normal,R,tetap 30/90,0.591,0.998,0.743,176.0
+teh_021.png,normal,R,q90,0.029,0.998,0.056,176.0
+teh_021.png,normal,R,q95,0.066,0.998,0.123,176.0
+teh_021.png,normal,R,q98,0.998,0.996,0.997,176.0
+teh_022.png,gelap,Gray,median,0.428,0.997,0.599,145.0
+teh_022.png,gelap,Gray,tetap 30/90,0.573,0.99,0.726,145.0
+teh_022.png,gelap,Gray,q90,0.029,0.991,0.057,145.0
+teh_022.png,gelap,Gray,q95,0.126,0.991,0.223,145.0
+teh_022.png,gelap,Gray,q98,0.583,0.99,0.734,145.0
+teh_022.png,gelap,R,median,0.882,0.998,0.936,132.0
+teh_022.png,gelap,R,tetap 30/90,1.0,1.0,1.0,132.0
+teh_022.png,gelap,R,q90,0.027,1.0,0.052,132.0
+teh_022.png,gelap,R,q95,0.048,1.0,0.091,132.0
+teh_022.png,gelap,R,q98,1.0,1.0,1.0,132.0
+teh_023.png,terang,Gray,median,0.587,0.999,0.74,187.0
+teh_023.png,terang,Gray,tetap 30/90,0.572,0.985,0.724,187.0
+teh_023.png,terang,Gray,q90,0.031,0.988,0.061,187.0
+teh_023.png,terang,Gray,q95,0.116,0.988,0.208,187.0
+teh_023.png,terang,Gray,q98,0.58,0.987,0.73,187.0
+teh_023.png,terang,R,median,0.674,1.0,0.805,188.0
+teh_023.png,terang,R,tetap 30/90,0.828,0.998,0.905,188.0
+teh_023.png,terang,R,q90,0.033,1.0,0.064,188.0
+teh_023.png,terang,R,q95,0.107,1.0,0.193,188.0
+teh_023.png,terang,R,q98,0.99,0.999,0.995,188.0
+teh_024.png,kontras_rendah,Gray,median,0.315,0.989,0.478,144.0
+teh_024.png,kontras_rendah,Gray,tetap 30/90,0.988,0.985,0.987,144.0
+teh_024.png,kontras_rendah,Gray,q90,0.03,0.988,0.058,144.0
+teh_024.png,kontras_rendah,Gray,q95,0.065,0.986,0.123,144.0
+teh_024.png,kontras_rendah,Gray,q98,0.592,0.986,0.74,144.0
+teh_024.png,kontras_rendah,R,median,0.182,0.994,0.308,145.0
+teh_024.png,kontras_rendah,R,tetap 30/90,1.0,0.996,0.998,145.0
+teh_024.png,kontras_rendah,R,q90,0.028,0.996,0.055,145.0
+teh_024.png,kontras_rendah,R,q95,0.053,0.996,0.1,145.0
+teh_024.png,kontras_rendah,R,q98,0.99,0.996,0.993,145.0
+teh_025.png,bayangan,Gray,median,0.401,0.999,0.573,107.0
+teh_025.png,bayangan,Gray,tetap 30/90,0.612,0.982,0.754,107.0
+teh_025.png,bayangan,Gray,q90,0.04,0.982,0.076,107.0
+teh_025.png,bayangan,Gray,q95,0.24,0.982,0.386,107.0
+teh_025.png,bayangan,Gray,q98,0.605,0.982,0.749,107.0
+teh_025.png,bayangan,R,median,0.163,0.998,0.28,119.0
+teh_025.png,bayangan,R,tetap 30/90,0.999,0.999,0.999,119.0
+teh_025.png,bayangan,R,q90,0.037,0.999,0.072,119.0
+teh_025.png,bayangan,R,q95,0.085,0.999,0.156,119.0
+teh_025.png,bayangan,R,q98,0.999,0.999,0.999,119.0
+teh_026.png,normal,Gray,median,0.598,1.0,0.749,173.0
+teh_026.png,normal,Gray,tetap 30/90,0.584,0.985,0.734,173.0
+teh_026.png,normal,Gray,q90,0.029,0.985,0.056,173.0
+teh_026.png,normal,Gray,q95,0.231,0.985,0.374,173.0
+teh_026.png,normal,Gray,q98,0.592,0.985,0.739,173.0
+teh_026.png,normal,R,median,0.969,1.0,0.984,191.0
+teh_026.png,normal,R,tetap 30/90,0.986,1.0,0.993,191.0
+teh_026.png,normal,R,q90,0.026,1.0,0.05,191.0
+teh_026.png,normal,R,q95,0.057,1.0,0.108,191.0
+teh_026.png,normal,R,q98,1.0,1.0,1.0,191.0
+teh_027.png,gelap,Gray,median,0.326,0.999,0.491,126.0
+teh_027.png,gelap,Gray,tetap 30/90,0.595,0.987,0.742,126.0
+teh_027.png,gelap,Gray,q90,0.028,0.99,0.055,126.0
+teh_027.png,gelap,Gray,q95,0.142,0.99,0.249,126.0
+teh_027.png,gelap,Gray,q98,0.594,0.989,0.742,126.0
+teh_027.png,gelap,R,median,0.12,0.997,0.214,132.0
+teh_027.png,gelap,R,tetap 30/90,0.966,0.998,0.982,132.0
+teh_027.png,gelap,R,q90,0.028,0.999,0.055,132.0
+teh_027.png,gelap,R,q95,0.045,0.999,0.085,132.0
+teh_027.png,gelap,R,q98,0.997,0.999,0.998,132.0
+teh_028.png,terang,Gray,median,0.775,0.993,0.87,203.0
+teh_028.png,terang,Gray,tetap 30/90,0.584,0.984,0.733,203.0
+teh_028.png,terang,Gray,q90,0.036,0.986,0.07,203.0
+teh_028.png,terang,Gray,q95,0.287,0.986,0.445,203.0
+teh_028.png,terang,Gray,q98,0.586,0.986,0.735,203.0
+teh_028.png,terang,R,median,0.972,0.991,0.981,209.0
+teh_028.png,terang,R,tetap 30/90,0.974,0.991,0.982,209.0
+teh_028.png,terang,R,q90,0.034,0.991,0.065,209.0
+teh_028.png,terang,R,q95,0.14,0.991,0.245,209.0
+teh_028.png,terang,R,q98,0.975,0.991,0.983,209.0
+teh_029.png,kontras_rendah,Gray,median,0.796,0.978,0.878,150.0
+teh_029.png,kontras_rendah,Gray,tetap 30/90,0.946,0.944,0.945,150.0
+teh_029.png,kontras_rendah,Gray,q90,0.029,0.973,0.056,150.0
+teh_029.png,kontras_rendah,Gray,q95,0.082,0.973,0.152,150.0
+teh_029.png,kontras_rendah,Gray,q98,0.592,0.965,0.734,150.0
+teh_029.png,kontras_rendah,R,median,0.756,0.978,0.853,157.0
+teh_029.png,kontras_rendah,R,tetap 30/90,0.948,0.98,0.963,157.0
+teh_029.png,kontras_rendah,R,q90,0.027,0.986,0.052,157.0
+teh_029.png,kontras_rendah,R,q95,0.055,0.986,0.104,157.0
+teh_029.png,kontras_rendah,R,q98,0.959,0.984,0.971,157.0
+teh_030.png,bayangan,Gray,median,0.104,0.999,0.188,123.0
+teh_030.png,bayangan,Gray,tetap 30/90,0.626,0.982,0.765,123.0
+teh_030.png,bayangan,Gray,q90,0.031,0.981,0.06,123.0
+teh_030.png,bayangan,Gray,q95,0.1,0.979,0.182,123.0
+teh_030.png,bayangan,Gray,q98,0.597,0.979,0.742,123.0
+teh_030.png,bayangan,R,median,0.044,0.999,0.084,128.0
+teh_030.png,bayangan,R,tetap 30/90,0.862,1.0,0.926,128.0
+teh_030.png,bayangan,R,q90,0.032,1.0,0.062,128.0
+teh_030.png,bayangan,R,q95,0.073,1.0,0.136,128.0
+teh_030.png,bayangan,R,q98,1.0,1.0,1.0,128.0
+teh_031.png,normal,Gray,median,0.471,0.999,0.641,157.0
+teh_031.png,normal,Gray,tetap 30/90,0.588,0.993,0.738,157.0
+teh_031.png,normal,Gray,q90,0.037,0.993,0.07,157.0
+teh_031.png,normal,Gray,q95,0.245,0.993,0.393,157.0
+teh_031.png,normal,Gray,q98,0.594,0.993,0.744,157.0
+teh_031.png,normal,R,median,0.267,0.999,0.421,178.0
+teh_031.png,normal,R,tetap 30/90,0.999,0.999,0.999,178.0
+teh_031.png,normal,R,q90,0.035,0.999,0.067,178.0
+teh_031.png,normal,R,q95,0.089,0.999,0.164,178.0
+teh_031.png,normal,R,q98,0.999,0.999,0.999,178.0
+teh_032.png,gelap,Gray,median,0.131,0.993,0.232,141.0
+teh_032.png,gelap,Gray,tetap 30/90,0.589,0.974,0.734,141.0
+teh_032.png,gelap,Gray,q90,0.031,0.977,0.06,141.0
+teh_032.png,gelap,Gray,q95,0.079,0.974,0.146,141.0
+teh_032.png,gelap,Gray,q98,0.585,0.974,0.731,141.0
+teh_032.png,gelap,R,median,0.245,0.999,0.393,126.0
+teh_032.png,gelap,R,tetap 30/90,0.998,0.997,0.998,126.0
+teh_032.png,gelap,R,q90,0.028,0.994,0.055,126.0
+teh_032.png,gelap,R,q95,0.053,0.994,0.101,126.0
+teh_032.png,gelap,R,q98,0.997,0.994,0.995,126.0
+teh_033.png,terang,Gray,median,0.603,0.994,0.751,188.0
+teh_033.png,terang,Gray,tetap 30/90,0.578,0.961,0.722,188.0
+teh_033.png,terang,Gray,q90,0.036,0.977,0.07,188.0
+teh_033.png,terang,Gray,q95,0.214,0.975,0.351,188.0
+teh_033.png,terang,Gray,q98,0.581,0.963,0.724,188.0
+teh_033.png,terang,R,median,0.968,0.999,0.983,193.0
+teh_033.png,terang,R,tetap 30/90,0.986,0.987,0.986,193.0
+teh_033.png,terang,R,q90,0.037,0.988,0.071,193.0
+teh_033.png,terang,R,q95,0.15,0.988,0.26,193.0
+teh_033.png,terang,R,q98,0.986,0.988,0.987,193.0
+teh_034.png,kontras_rendah,Gray,median,0.553,0.996,0.711,148.0
+teh_034.png,kontras_rendah,Gray,tetap 30/90,0.801,0.978,0.881,148.0
+teh_034.png,kontras_rendah,Gray,q90,0.026,0.989,0.051,148.0
+teh_034.png,kontras_rendah,Gray,q95,0.058,0.989,0.11,148.0
+teh_034.png,kontras_rendah,Gray,q98,0.576,0.987,0.727,148.0
+teh_034.png,kontras_rendah,R,median,0.379,0.994,0.549,152.0
+teh_034.png,kontras_rendah,R,tetap 30/90,0.997,0.986,0.991,152.0
+teh_034.png,kontras_rendah,R,q90,0.026,0.99,0.051,152.0
+teh_034.png,kontras_rendah,R,q95,0.048,0.99,0.091,152.0
+teh_034.png,kontras_rendah,R,q98,0.605,0.99,0.751,152.0
+teh_035.png,bayangan,Gray,median,0.468,0.997,0.637,114.0
+teh_035.png,bayangan,Gray,tetap 30/90,0.602,0.99,0.749,114.0
+teh_035.png,bayangan,Gray,q90,0.035,0.993,0.067,114.0
+teh_035.png,bayangan,Gray,q95,0.186,0.991,0.313,114.0
+teh_035.png,bayangan,Gray,q98,0.602,0.99,0.749,114.0
+teh_035.png,bayangan,R,median,0.423,0.998,0.594,130.0
+teh_035.png,bayangan,R,tetap 30/90,1.0,0.998,0.999,130.0
+teh_035.png,bayangan,R,q90,0.028,0.999,0.055,130.0
+teh_035.png,bayangan,R,q95,0.064,0.999,0.121,130.0
+teh_035.png,bayangan,R,q98,1.0,0.998,0.999,130.0
+teh_036.png,normal,Gray,median,0.49,0.997,0.657,170.0
+teh_036.png,normal,Gray,tetap 30/90,0.568,0.973,0.718,170.0
+teh_036.png,normal,Gray,q90,0.034,0.977,0.067,170.0
+teh_036.png,normal,Gray,q95,0.206,0.977,0.34,170.0
+teh_036.png,normal,Gray,q98,0.603,0.974,0.745,170.0
+teh_036.png,normal,R,median,0.597,0.998,0.747,176.0
+teh_036.png,normal,R,tetap 30/90,1.0,0.995,0.997,176.0
+teh_036.png,normal,R,q90,0.033,0.993,0.064,176.0
+teh_036.png,normal,R,q95,0.093,0.993,0.171,176.0
+teh_036.png,normal,R,q98,1.0,0.993,0.997,176.0
+teh_037.png,gelap,Gray,median,0.48,0.999,0.648,130.0
+teh_037.png,gelap,Gray,tetap 30/90,0.611,0.995,0.757,130.0
+teh_037.png,gelap,Gray,q90,0.038,0.995,0.074,130.0
+teh_037.png,gelap,Gray,q95,0.304,0.995,0.466,130.0
+teh_037.png,gelap,Gray,q98,0.63,0.995,0.772,130.0
+teh_037.png,gelap,R,median,0.438,0.999,0.609,158.0
+teh_037.png,gelap,R,tetap 30/90,0.962,0.999,0.98,158.0
+teh_037.png,gelap,R,q90,0.033,0.999,0.064,158.0
+teh_037.png,gelap,R,q95,0.056,0.999,0.107,158.0
+teh_037.png,gelap,R,q98,0.999,0.999,0.999,158.0
+teh_038.png,terang,Gray,median,0.637,0.999,0.778,196.0
+teh_038.png,terang,Gray,tetap 30/90,0.576,0.989,0.728,196.0
+teh_038.png,terang,Gray,q90,0.031,0.991,0.061,196.0
+teh_038.png,terang,Gray,q95,0.123,0.989,0.218,196.0
+teh_038.png,terang,Gray,q98,0.578,0.989,0.729,196.0
+teh_038.png,terang,R,median,0.648,0.999,0.786,204.0
+teh_038.png,terang,R,tetap 30/90,1.0,0.996,0.998,204.0
+teh_038.png,terang,R,q90,0.031,0.996,0.061,204.0
+teh_038.png,terang,R,q95,0.073,0.996,0.136,204.0
+teh_038.png,terang,R,q98,1.0,0.996,0.998,204.0
+teh_039.png,kontras_rendah,Gray,median,0.986,0.999,0.993,158.0
+teh_039.png,kontras_rendah,Gray,tetap 30/90,0.816,0.969,0.886,158.0
+teh_039.png,kontras_rendah,Gray,q90,0.032,0.975,0.063,158.0
+teh_039.png,kontras_rendah,Gray,q95,0.113,0.974,0.202,158.0
+teh_039.png,kontras_rendah,Gray,q98,0.618,0.974,0.756,158.0
+teh_039.png,kontras_rendah,R,median,1.0,1.0,1.0,161.0
+teh_039.png,kontras_rendah,R,tetap 30/90,0.972,0.998,0.985,161.0
+teh_039.png,kontras_rendah,R,q90,0.031,0.996,0.061,161.0
+teh_039.png,kontras_rendah,R,q95,0.076,0.996,0.141,161.0
+teh_039.png,kontras_rendah,R,q98,0.998,0.996,0.997,161.0
+teh_040.png,bayangan,Gray,median,0.335,0.998,0.501,121.0
+teh_040.png,bayangan,Gray,tetap 30/90,0.641,0.993,0.779,121.0
+teh_040.png,bayangan,Gray,q90,0.033,0.995,0.063,121.0
+teh_040.png,bayangan,Gray,q95,0.118,0.995,0.211,121.0
+teh_040.png,bayangan,Gray,q98,0.59,0.994,0.741,121.0
+teh_040.png,bayangan,R,median,0.085,0.999,0.157,134.0
+teh_040.png,bayangan,R,tetap 30/90,1.0,1.0,1.0,134.0
+teh_040.png,bayangan,R,q90,0.032,1.0,0.063,134.0
+teh_040.png,bayangan,R,q95,0.062,1.0,0.117,134.0
+teh_040.png,bayangan,R,q98,1.0,1.0,1.0,134.0
+teh_041.png,normal,Gray,median,0.62,0.99,0.763,169.0
+teh_041.png,normal,Gray,tetap 30/90,0.63,0.891,0.738,169.0
+teh_041.png,normal,Gray,q90,0.053,0.912,0.1,169.0
+teh_041.png,normal,Gray,q95,0.402,0.905,0.557,169.0
+teh_041.png,normal,Gray,q98,0.652,0.888,0.752,169.0
+teh_041.png,normal,R,median,0.865,0.991,0.924,185.0
+teh_041.png,normal,R,tetap 30/90,0.958,0.988,0.973,185.0
+teh_041.png,normal,R,q90,0.047,0.989,0.09,185.0
+teh_041.png,normal,R,q95,0.441,0.989,0.61,185.0
+teh_041.png,normal,R,q98,0.961,0.988,0.974,185.0
+teh_042.png,gelap,Gray,median,0.653,1.0,0.79,138.0
+teh_042.png,gelap,Gray,tetap 30/90,0.723,0.916,0.808,138.0
+teh_042.png,gelap,Gray,q90,0.065,0.925,0.122,138.0
+teh_042.png,gelap,Gray,q95,0.546,0.922,0.686,138.0
+teh_042.png,gelap,Gray,q98,0.943,0.919,0.93,138.0
+teh_042.png,gelap,R,median,0.951,1.0,0.975,170.0
+teh_042.png,gelap,R,tetap 30/90,0.978,0.999,0.989,170.0
+teh_042.png,gelap,R,q90,0.056,1.0,0.105,170.0
+teh_042.png,gelap,R,q95,0.559,1.0,0.717,170.0
+teh_042.png,gelap,R,q98,0.991,0.997,0.994,170.0
+teh_043.png,terang,Gray,median,0.866,0.991,0.924,204.0
+teh_043.png,terang,Gray,tetap 30/90,0.662,0.932,0.774,204.0
+teh_043.png,terang,Gray,q90,0.047,0.945,0.09,204.0
+teh_043.png,terang,Gray,q95,0.379,0.943,0.541,204.0
+teh_043.png,terang,Gray,q98,0.679,0.938,0.788,204.0
+teh_043.png,terang,R,median,0.957,0.991,0.974,208.0
+teh_043.png,terang,R,tetap 30/90,0.944,0.989,0.966,208.0
+teh_043.png,terang,R,q90,0.04,0.993,0.077,208.0
+teh_043.png,terang,R,q95,0.431,0.993,0.601,208.0
+teh_043.png,terang,R,q98,0.981,0.993,0.987,208.0
+teh_044.png,kontras_rendah,Gray,median,0.61,0.981,0.752,149.0
+teh_044.png,kontras_rendah,Gray,tetap 30/90,0.936,0.941,0.938,149.0
+teh_044.png,kontras_rendah,Gray,q90,0.039,0.954,0.074,149.0
+teh_044.png,kontras_rendah,Gray,q95,0.147,0.948,0.255,149.0
+teh_044.png,kontras_rendah,Gray,q98,0.764,0.944,0.844,149.0
+teh_044.png,kontras_rendah,R,median,0.581,0.986,0.731,148.0
+teh_044.png,kontras_rendah,R,tetap 30/90,0.967,0.974,0.97,148.0
+teh_044.png,kontras_rendah,R,q90,0.038,0.979,0.074,148.0
+teh_044.png,kontras_rendah,R,q95,0.111,0.974,0.2,148.0
+teh_044.png,kontras_rendah,R,q98,0.992,0.974,0.983,148.0
+teh_045.png,bayangan,Gray,median,0.181,0.997,0.307,115.0
+teh_045.png,bayangan,Gray,tetap 30/90,0.727,0.961,0.828,115.0
+teh_045.png,bayangan,Gray,q90,0.04,0.966,0.077,115.0
+teh_045.png,bayangan,Gray,q95,0.184,0.966,0.31,115.0
+teh_045.png,bayangan,Gray,q98,0.773,0.964,0.858,115.0
+teh_045.png,bayangan,R,median,0.057,0.999,0.108,120.0
+teh_045.png,bayangan,R,tetap 30/90,0.995,0.998,0.996,120.0
+teh_045.png,bayangan,R,q90,0.043,0.998,0.083,120.0
+teh_045.png,bayangan,R,q95,0.129,0.998,0.228,120.0
+teh_045.png,bayangan,R,q98,1.0,0.998,0.999,120.0
+teh_046.png,normal,Gray,median,0.711,0.993,0.829,184.0
+teh_046.png,normal,Gray,tetap 30/90,0.639,0.916,0.753,184.0
+teh_046.png,normal,Gray,q90,0.063,0.925,0.118,184.0
+teh_046.png,normal,Gray,q95,0.572,0.918,0.705,184.0
+teh_046.png,normal,Gray,q98,0.921,0.91,0.915,184.0
+teh_046.png,normal,R,median,0.962,0.991,0.976,187.0
+teh_046.png,normal,R,tetap 30/90,0.819,0.99,0.897,187.0
+teh_046.png,normal,R,q90,0.063,0.995,0.119,187.0
+teh_046.png,normal,R,q95,0.67,0.995,0.801,187.0
+teh_046.png,normal,R,q98,0.969,0.989,0.979,187.0
+teh_047.png,gelap,Gray,median,0.309,0.988,0.471,127.0
+teh_047.png,gelap,Gray,tetap 30/90,0.634,0.879,0.737,127.0
+teh_047.png,gelap,Gray,q90,0.052,0.895,0.098,127.0
+teh_047.png,gelap,Gray,q95,0.459,0.89,0.605,127.0
+teh_047.png,gelap,Gray,q98,0.889,0.878,0.884,127.0
+teh_047.png,gelap,R,median,0.078,0.988,0.145,141.0
+teh_047.png,gelap,R,tetap 30/90,0.923,0.984,0.953,141.0
+teh_047.png,gelap,R,q90,0.048,0.986,0.092,141.0
+teh_047.png,gelap,R,q95,0.219,0.986,0.358,141.0
+teh_047.png,gelap,R,q98,0.944,0.985,0.964,141.0
+teh_048.png,terang,Gray,median,0.639,0.995,0.778,194.0
+teh_048.png,terang,Gray,tetap 30/90,0.601,0.904,0.722,194.0
+teh_048.png,terang,Gray,q90,0.046,0.919,0.087,194.0
+teh_048.png,terang,Gray,q95,0.359,0.915,0.516,194.0
+teh_048.png,terang,Gray,q98,0.596,0.906,0.719,194.0
+teh_048.png,terang,R,median,0.986,1.0,0.993,203.0
+teh_048.png,terang,R,tetap 30/90,0.991,0.978,0.985,203.0
+teh_048.png,terang,R,q90,0.042,0.979,0.081,203.0
+teh_048.png,terang,R,q95,0.56,0.979,0.712,203.0
+teh_048.png,terang,R,q98,0.99,0.978,0.984,203.0
+teh_049.png,kontras_rendah,Gray,median,0.777,0.988,0.87,149.0
+teh_049.png,kontras_rendah,Gray,tetap 30/90,0.848,0.882,0.864,149.0
+teh_049.png,kontras_rendah,Gray,q90,0.049,0.92,0.092,149.0
+teh_049.png,kontras_rendah,Gray,q95,0.243,0.912,0.383,149.0
+teh_049.png,kontras_rendah,Gray,q98,0.668,0.898,0.766,149.0
+teh_049.png,kontras_rendah,R,median,0.756,0.99,0.857,153.0
+teh_049.png,kontras_rendah,R,tetap 30/90,0.989,0.964,0.977,153.0
+teh_049.png,kontras_rendah,R,q90,0.049,0.967,0.093,153.0
+teh_049.png,kontras_rendah,R,q95,0.198,0.967,0.329,153.0
+teh_049.png,kontras_rendah,R,q98,0.987,0.966,0.977,153.0
+teh_050.png,bayangan,Gray,median,0.657,0.994,0.791,122.0
+teh_050.png,bayangan,Gray,tetap 30/90,0.67,0.917,0.774,122.0
+teh_050.png,bayangan,Gray,q90,0.062,0.917,0.116,122.0
+teh_050.png,bayangan,Gray,q95,0.636,0.914,0.75,122.0
+teh_050.png,bayangan,Gray,q98,0.937,0.914,0.925,122.0
+teh_050.png,bayangan,R,median,0.902,0.994,0.946,120.0
+teh_050.png,bayangan,R,tetap 30/90,0.971,0.994,0.982,120.0
+teh_050.png,bayangan,R,q90,0.067,0.994,0.126,120.0
+teh_050.png,bayangan,R,q95,0.692,0.994,0.816,120.0
+teh_050.png,bayangan,R,q98,0.976,0.985,0.981,120.0
+teh_051.png,normal,Gray,median,0.468,0.997,0.637,154.0
+teh_051.png,normal,Gray,tetap 30/90,0.635,0.916,0.75,154.0
+teh_051.png,normal,Gray,q90,0.042,0.926,0.081,154.0
+teh_051.png,normal,Gray,q95,0.363,0.923,0.521,154.0
+teh_051.png,normal,Gray,q98,0.64,0.92,0.755,154.0
+teh_051.png,normal,R,median,0.133,0.998,0.235,165.0
+teh_051.png,normal,R,tetap 30/90,0.998,0.99,0.994,165.0
+teh_051.png,normal,R,q90,0.044,0.993,0.084,165.0
+teh_051.png,normal,R,q95,0.12,0.993,0.214,165.0
+teh_051.png,normal,R,q98,0.998,0.993,0.995,165.0
+teh_052.png,gelap,Gray,median,0.297,0.992,0.457,127.0
+teh_052.png,gelap,Gray,tetap 30/90,0.651,0.856,0.74,127.0
+teh_052.png,gelap,Gray,q90,0.049,0.895,0.094,127.0
+teh_052.png,gelap,Gray,q95,0.355,0.89,0.508,127.0
+teh_052.png,gelap,Gray,q98,0.667,0.867,0.754,127.0
+teh_052.png,gelap,R,median,0.073,0.989,0.137,157.0
+teh_052.png,gelap,R,tetap 30/90,0.945,0.972,0.958,157.0
+teh_052.png,gelap,R,q90,0.047,0.974,0.089,157.0
+teh_052.png,gelap,R,q95,0.137,0.974,0.24,157.0
+teh_052.png,gelap,R,q98,0.946,0.973,0.959,157.0
+teh_053.png,terang,Gray,median,0.857,0.991,0.919,194.0
+teh_053.png,terang,Gray,tetap 30/90,0.656,0.926,0.768,194.0
+teh_053.png,terang,Gray,q90,0.066,0.934,0.123,194.0
+teh_053.png,terang,Gray,q95,0.655,0.931,0.769,194.0
+teh_053.png,terang,Gray,q98,0.781,0.929,0.848,194.0
+teh_053.png,terang,R,median,0.957,0.99,0.973,202.0
+teh_053.png,terang,R,tetap 30/90,0.959,0.986,0.973,202.0
+teh_053.png,terang,R,q90,0.061,0.989,0.115,202.0
+teh_053.png,terang,R,q95,0.681,0.987,0.806,202.0
+teh_053.png,terang,R,q98,0.979,0.987,0.983,202.0
+teh_054.png,kontras_rendah,Gray,median,0.966,0.995,0.98,154.0
+teh_054.png,kontras_rendah,Gray,tetap 30/90,0.974,0.971,0.973,154.0
+teh_054.png,kontras_rendah,Gray,q90,0.048,0.976,0.092,154.0
+teh_054.png,kontras_rendah,Gray,q95,0.534,0.976,0.69,154.0
+teh_054.png,kontras_rendah,Gray,q98,0.978,0.972,0.975,154.0
+teh_054.png,kontras_rendah,R,median,0.972,0.999,0.985,152.0
+teh_054.png,kontras_rendah,R,tetap 30/90,0.994,0.992,0.993,152.0
+teh_054.png,kontras_rendah,R,q90,0.047,0.998,0.089,152.0
+teh_054.png,kontras_rendah,R,q95,0.649,0.998,0.786,152.0
+teh_054.png,kontras_rendah,R,q98,0.992,0.994,0.993,152.0
+teh_055.png,bayangan,Gray,median,0.184,1.0,0.312,117.0
+teh_055.png,bayangan,Gray,tetap 30/90,0.653,0.948,0.773,117.0
+teh_055.png,bayangan,Gray,q90,0.041,0.951,0.079,117.0
+teh_055.png,bayangan,Gray,q95,0.191,0.951,0.317,117.0
+teh_055.png,bayangan,Gray,q98,0.744,0.947,0.833,117.0
+teh_055.png,bayangan,R,median,0.049,0.999,0.093,129.0
+teh_055.png,bayangan,R,tetap 30/90,0.993,0.998,0.996,129.0
+teh_055.png,bayangan,R,q90,0.043,0.999,0.082,129.0
+teh_055.png,bayangan,R,q95,0.108,0.999,0.195,129.0
+teh_055.png,bayangan,R,q98,1.0,0.999,1.0,129.0
+teh_056.png,normal,Gray,median,0.559,0.998,0.717,158.0
+teh_056.png,normal,Gray,tetap 30/90,0.633,0.879,0.736,158.0
+teh_056.png,normal,Gray,q90,0.051,0.902,0.096,158.0
+teh_056.png,normal,Gray,q95,0.46,0.892,0.607,158.0
+teh_056.png,normal,Gray,q98,0.639,0.884,0.742,158.0
+teh_056.png,normal,R,median,0.272,0.998,0.428,177.0
+teh_056.png,normal,R,tetap 30/90,0.968,0.992,0.98,177.0
+teh_056.png,normal,R,q90,0.048,0.991,0.092,177.0
+teh_056.png,normal,R,q95,0.294,0.991,0.453,177.0
+teh_056.png,normal,R,q98,0.977,0.991,0.984,177.0
+teh_057.png,gelap,Gray,median,0.188,0.999,0.317,122.0
+teh_057.png,gelap,Gray,tetap 30/90,0.641,0.916,0.754,122.0
+teh_057.png,gelap,Gray,q90,0.049,0.928,0.092,122.0
+teh_057.png,gelap,Gray,q95,0.521,0.923,0.666,122.0
+teh_057.png,gelap,Gray,q98,0.96,0.921,0.94,122.0
+teh_057.png,gelap,R,median,0.048,1.0,0.092,146.0
+teh_057.png,gelap,R,tetap 30/90,0.942,0.995,0.968,146.0
+teh_057.png,gelap,R,q90,0.047,0.995,0.089,146.0
+teh_057.png,gelap,R,q95,0.153,0.995,0.265,146.0
+teh_057.png,gelap,R,q98,0.991,0.995,0.993,146.0
+teh_058.png,terang,Gray,median,0.955,0.994,0.974,205.0
+teh_058.png,terang,Gray,tetap 30/90,0.857,0.94,0.897,205.0
+teh_058.png,terang,Gray,q90,0.065,0.955,0.121,205.0
+teh_058.png,terang,Gray,q95,0.628,0.954,0.757,205.0
+teh_058.png,terang,Gray,q98,0.947,0.952,0.949,205.0
+teh_058.png,terang,R,median,0.969,0.993,0.981,203.0
+teh_058.png,terang,R,tetap 30/90,0.97,0.99,0.98,203.0
+teh_058.png,terang,R,q90,0.072,0.997,0.135,203.0
+teh_058.png,terang,R,q95,0.692,0.997,0.817,203.0
+teh_058.png,terang,R,q98,0.983,0.987,0.985,203.0
+teh_059.png,kontras_rendah,Gray,median,0.965,0.99,0.977,155.0
+teh_059.png,kontras_rendah,Gray,tetap 30/90,0.955,0.95,0.952,155.0
+teh_059.png,kontras_rendah,Gray,q90,0.054,0.959,0.102,155.0
+teh_059.png,kontras_rendah,Gray,q95,0.636,0.959,0.764,155.0
+teh_059.png,kontras_rendah,Gray,q98,0.951,0.954,0.953,155.0
+teh_059.png,kontras_rendah,R,median,0.969,0.992,0.98,162.0
+teh_059.png,kontras_rendah,R,tetap 30/90,0.97,0.992,0.981,162.0
+teh_059.png,kontras_rendah,R,q90,0.051,0.994,0.097,162.0
+teh_059.png,kontras_rendah,R,q95,0.588,0.994,0.739,162.0
+teh_059.png,kontras_rendah,R,q98,0.969,0.985,0.977,162.0
+teh_060.png,bayangan,Gray,median,0.201,0.998,0.335,117.0
+teh_060.png,bayangan,Gray,tetap 30/90,0.619,0.876,0.726,117.0
+teh_060.png,bayangan,Gray,q90,0.036,0.904,0.069,117.0
+teh_060.png,bayangan,Gray,q95,0.168,0.897,0.284,117.0
+teh_060.png,bayangan,Gray,q98,0.626,0.886,0.734,117.0
+teh_060.png,bayangan,R,median,0.06,0.993,0.113,121.0
+teh_060.png,bayangan,R,tetap 30/90,0.993,0.982,0.988,121.0
+teh_060.png,bayangan,R,q90,0.037,0.983,0.07,121.0
+teh_060.png,bayangan,R,q95,0.101,0.983,0.182,121.0
+teh_060.png,bayangan,R,q98,0.995,0.983,0.989,121.0
