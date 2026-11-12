@@ -1,4 +1,4 @@
-# SIMUTEH - Evaluasi Praktikum P1-P4
+# SIMUTEH · Evaluasi Praktikum P1–P6
 
 Nama: M. Zidane Naufal Azzam  
 NIM: 2330511034  
@@ -45,3 +45,16 @@ AI digunakan sebagai alat bantu dalam pengembangan kode, pelaksanaan dan pemerik
 - Lembar hitung manual Bagian 2, 3, dan 4: [PDF](laporan/Lembar_Hitung_Manual_2330511034.pdf).
 
 Tag rilis praproses: `v0.1-praproses`.
+
+## Praktikum P5–P6
+
+P5 dan P6 memakai generator dataset, SEED 1034, dan parameter praproses P1–P4. Setelah menjalankan generator, buka kedua notebook dan jalankan dari awal.
+
+- [P5 · Deteksi tepi](notebook/P5_tepi.ipynb) membandingkan Sobel, Prewitt, LoG, dan Canny. Canny kanal R sesudah praproses dengan σ 1 dan ambang 100/200 mencapai F1 0,987 pada batas daun dan bercak.
+- [P6 · Morfologi dan pengukuran bercak](notebook/P6_morfologi.ipynb) mengukur komponen terhubung dan memperkirakan kelas mutu. Modul mengklasifikasikan 54 dari 60 citra sintetis dengan benar. MAE persen bercak sebesar 0,623 poin persentase. Parameter dipilih dan diukur pada dataset yang sama.
+
+Untuk memakai [modul bercak](src/bercak.py), teruskan citra keluaran praproses dan parameter dari [param_bercak.json](hasil/param_bercak.json) ke `analisis_daun(img_praproses, parameter)`. Hasilnya memuat mask daun dan bercak, jumlah, persentase, kelas, dan ukuran komponen. Eksperimen P5–P6 diuji dengan Python 3.13, OpenCV 4.12, NumPy 2.2.6, pandas 2.3.1, dan Matplotlib 3.10.7.
+
+Laporan dan presentasi P5–P6 tersedia di folder pengumpulan Google Drive.
+
+Tahapan P5–P6 menggunakan tag `v0.2-tepi` dan `v0.3-morfologi`. Codex membantu penulisan kode, pelaksanaan eksperimen, analisis, laporan, dan slide.
